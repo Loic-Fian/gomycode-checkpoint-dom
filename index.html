@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="table-top">
+            <h1>Panier :</h1>
+        </div>
+        <table>
+            <tr class="table__row-1">
+                <td>Nom de l'article</td>
+                <td>Quantité</td>
+                <td>Prix unitaire</td>
+                <td>Sous total</td>
+            </tr>
+            <tr class="table__row-2">
+                <td>
+                    <div class="row-2__section">
+                        <div>
+                            <img src="res/Images/download.png" alt="" height="100px">
+                        </div>
+                        <div>
+                            <h3>Image</h3>
+                            <a href="">supprimer</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <button class="moins">-</button>
+                    <input class="input" value="0" type="number" readonly>
+                    <button class="plus">+</button>
+                </td>
+                <td>2000</td>
+                <td class="sous-total"></td>
+            </tr>
+            <tr class="table__row-3">
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td></td>
+                <td><a href="" class="last-btn">Ajouter au panier</a></td>
+            </tr>
+        </table>
+        <div class="table-bottom">
+            <h3 class="total">Total :</h3>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
